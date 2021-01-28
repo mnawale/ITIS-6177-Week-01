@@ -1,7 +1,6 @@
 {
   "name": "quiz1",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1"
@@ -13,5 +12,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnawale/ITIS-6177-Week-01.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mnawale/ITIS-6177-Week-01/issues"
+  },
+  "homepage": "https://github.com/mnawale/ITIS-6177-Week-01#readme",
+  "description": ""
 }

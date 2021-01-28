@@ -1,14 +1,14 @@
 
-
-const http = require('http');
+const express = require('express');
+const app = express();
 
 const port = 3000;
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 
-const server = http.createServer((req, res) => {
-  
-});
 console.log("Hello World");
 
-server.listen(port, () => {
+app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
